@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>THACO AGRI</title>
+
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<meta name="theme-color" content="#0c6b37">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f5f5f5;
+}
+
+.container{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+    padding:30px 20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
+/* ================= Banner ================= */
+
+.banner{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:35px;
+}
+
+.banner img{
+    width:720px;
+    max-width:100%;
+    display:block;
+    margin:auto;
+}
+
+.vn-slogan{
+    margin-top:16px;
+    font-size:56px;
+    font-weight:800;
+    color:#2e7d32;
+    letter-spacing:0.8px;
+    line-height:1.15;
+}
+/* ================= Logo ================= */
+
+.logos{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+    margin:30px 0 40px;
+}
+
+.logos img{
+    width:150px;
+    transition:0.3s;
+}
+
+.logos img:hover{
+    transform:scale(1.08);
+}
+
+.logo-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.logo-name{
+    margin-top:10px;
+    font-size:26px;
+    font-weight:700;
+    color:#2e7d32;
+    letter-spacing:1px;
+}
+
+/* ================= Map ================= */
+
+.map{
+    width:100%;
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.map img{
+    width:360px;
+    max-width:100%;
+    display:block;
+    margin:auto;
+}
+
+/* ================= Bottom ================= */
+
+.bottom{
+    width:100%;
+    text-align:center;
+}
+
+.bottom img{
+    width:820px;
+    max-width:100%;
+    display:block;
+    margin:auto;
+}
+
+/* ================= Mobile ================= */
+
+@media(max-width:768px){
+
+.banner img{
+    width:100%;
+}
+
+.vn-slogan{
+    font-size:40px;
+}
+.logos{
+    gap:20px;
+}
+
+.logos img{
+    width:95px;
+}
+
+.map img{
+    width:270px;
+}
+
+.bottom img{
+    width:100%;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Enhance -->
+    <div class="banner">
+
+        <img src="Enhance.png" alt="THACO AGRI">
+
+        <div class="vn-slogan">
+            Nâng tầm Nông nghiệp Việt
+        </div>
+
+    </div>
+
+    <!-- 3 Logo -->
+
+    <div class="logos">
+
+        <div class="logo-item">
+            <img src="icon-192.png" alt="SN">
+            <div class="logo-name">SN</div>
+        </div>
+
+        <div class="logo-item">
+            <img src="icon-192.png" alt="KM">
+            <div class="logo-name">KM</div>
+        </div>
+
+        <div class="logo-item">
+            <img src="icon-192.png" alt="ATP">
+            <div class="logo-name">ATP</div>
+        </div>
+
+    </div>
+
+    <!-- Bản đồ -->
+
+    <div class="map">
+
+        <img src="Indochine.png" alt="Indochine">
+
+    </div>
+
+    <!-- Nuôi trồng -->
+
+    <div class="bottom">
+
+        <img src="nuoi-trong.png" alt="Nuôi trồng">
+
+    </div>
+
+</div>
+
+</body>
+</html>
